@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(90deg, rgb(94, 110, 185) 0%, rgb(58, 161, 216) 100%);
+    overflow: hidden;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.back{
+    margin: auto;
+    width: 250px;
+    height: 180px;
+    background-image: linear-gradient(90deg, rgb(140, 155, 231) 0%, #4C93B8 100%);
+    border-radius: 20px;
+}
+
+.main{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 290px;
+    height: 120px;
+    background-image: linear-gradient(90deg, rgb(164, 173, 221) 0%, rgb(137, 194, 224) 100%);
+    border-radius: 20px;
+    top: 265px;
+}
+
+.circle{
+    position: absolute;
+    left: 285px;
+    right: 0;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(90deg, rgb(130, 141, 204) 0%, rgb(102, 180, 223) 100%);
+    border-radius: 100%;
+    top: 265px;
+}
+
+.time{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 12px;
+    margin-top: 20px;
+}
+
+.x{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
